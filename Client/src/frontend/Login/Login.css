@@ -1,0 +1,81 @@
+html,
+body {
+  height: 100%;
+  margin: None;
+  padding: None;
+}
+
+.centerPage {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: whitesmoke;
+  backdrop-filter: blur(50px);
+}
+
+.login-box {
+  display: flex;
+  flex-direction: column;
+  border-radius: 40px;
+  /* border: 2px black solid; */
+  padding-top: 4%;
+  padding-bottom: 4%;
+  padding-left: 9%;
+  padding-right: 9%;
+
+  background-color: white;
+}
+
+.login-ele {
+  margin: 1em;
+}
+
+.title {
+  font-size: xx-large;
+  font-weight: 700;
+}
+
+.inp {
+  padding: 9px;
+  border-radius: 10px;
+  border: 2px black solid;
+}
+
+.btn {
+  padding: 10px;
+  border-radius: 25px;
+  border: none;
+}
+
+.btn:hover {
+  background-color: rgb(230, 230, 230);
+  cursor: pointer;
+}
+
+.link {
+  font-size: xx-small;
+  margin-top: 0px;
+  text-decoration: underline;
+}
+
+.link:hover {
+  cursor: pointer;
+}
+
+.error {
+  display: flex;
+}
+
+.danger {
+  color: rgb(236, 85, 58);
+  font-size: x-small;
+  margin-left: 8%;
+  display: none;
+}
+
+.logo {
+  margin-bottom: 15%;
+}

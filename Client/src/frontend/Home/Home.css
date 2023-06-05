@@ -1,0 +1,532 @@
+body,
+html {
+  height: 100%;
+  margin: none;
+  padding: none;
+  box-sizing: border-box;
+}
+
+.Home {
+  height: 100%;
+  width: 100%;
+}
+
+.home-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 18px 18px;
+  border-bottom: 0.01px black solid;
+}
+
+.home-logo {
+  padding: 4px;
+  margin-left: 50%;
+  transform: translate(-50%, 0px);
+}
+
+.home-btn {
+  margin-left: auto;
+  padding: 8px 15px;
+  border-radius: 20px;
+  border: 1px white solid;
+  background-color: whitesmoke;
+}
+
+.home-btn:hover {
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.services {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 0.01px black solid;
+}
+
+.service-tag {
+  padding: 13px 20px;
+  margin-right: 15px;
+  background-color: rgb(230 230 230);
+  border-radius: 15px;
+  font-weight: 600;
+}
+
+.service-tag:hover {
+  cursor: pointer;
+}
+
+.home-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: justify;
+  padding: 50px 69px;
+}
+
+.home-title {
+  font-size: x-large;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.home-body {
+  font-size: medium;
+  margin-bottom: 35px;
+}
+
+.info-container {
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.info-box {
+  border: 1px aliceblue solid;
+  width: 30%;
+  margin: 0px 10px;
+  padding: 30px;
+  border-radius: 41px;
+  background-color: lightblue;
+}
+
+.info-title {
+  font-size: large;
+  font-weight: 700;
+  color: darkblue;
+  margin-bottom: 8px;
+}
+
+.info-body {
+  font-size: small;
+  color: darkblue;
+  font-weight: 400;
+}
+
+.home-cover {
+  width: 100%;
+  margin-bottom: 22px;
+}
+
+.home-cover-img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.bus-input-group {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0px;
+  border-bottom: 1px grey solid;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.bus-input {
+  width: 20%;
+  margin: 0px 7px;
+  padding: 10px 25px;
+}
+
+#bus-input-btn:hover {
+  cursor: pointer;
+}
+
+.result-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 350px;
+  background-color: whitesmoke;
+  padding: 20px 0px;
+}
+
+.bus-ticket-space {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.bus-ticket {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  margin: 10px 0px;
+}
+
+.bus-component {
+  margin: 9px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bus-ticket-destinations {
+  font-size: large;
+  font-weight: 600;
+}
+
+.bus-ticket-time {
+  font-size: larger;
+  font-weight: lighter;
+}
+
+.bus-ticket-price {
+  font-size: medium;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.bus-ticket-img img {
+  width: 115px;
+}
+
+.bus-ticket-book {
+  padding: 6px 20px;
+  border: none;
+  /* background-color: rgb(23, 23, 92); */
+}
+
+.bus-ticket-book:hover {
+  cursor: pointer;
+  background-color: rgb(220, 220, 220);
+}
+
+.select-match-title {
+  border-bottom: 1px black solid;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  font-size: xx-large;
+}
+
+.cricket-ticket-space {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.cricket-ticket {
+  border: 1px grey solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  margin: 15px 0px;
+  width: fit-content;
+}
+
+.cricket-ticket:hover {
+  cursor: pointer;
+}
+
+.cricket-ticket-head {
+  width: 100%;
+  height: 10%;
+  text-align: center;
+  border-bottom: 1px grey solid;
+  padding: 15px 0px;
+  background-color: rgb(230, 230, 230);
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.cricket-ticket-body {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(240, 240, 240);
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  /* margin: 25px; */
+}
+
+.cricket-ticket-body-ele {
+  margin: 20px 40px;
+}
+
+.cricket-ticket-team img {
+  width: 100px;
+}
+
+.cricket-ticket-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cricket-ticket-time {
+  font-size: medium;
+  font-weight: 600;
+}
+
+.cricket-ticket-date {
+  font-size: small;
+  font-weight: 400;
+}
+
+.cricket-ticket-venue {
+  font-size: smaller;
+  font-weight: 400;
+}
+
+.modal {
+  border: 1px solid black;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  position: fixed;
+  left: 30%;
+  right: 30%;
+  top: 15%;
+  bottom: 15%;
+  border: 1px black solid;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-title {
+  /* border: 1px solid black; */
+  background-color: white;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: larger;
+  border-bottom: 1px grey solid;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.modal-footer {
+  /* border: 1px solid black; */
+  border-top: 1px grey solid;
+  background-color: white;
+  height: 10%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 15px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.enclosure-modal-body {
+  /* border: 1px solid black; */
+  background-color: white;
+  height: 80%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(14em, 1fr));
+  grid-gap: 0.75em 0.75em;
+  overflow-y: scroll;
+  padding: 15px 15px;
+}
+
+.enclosure-info {
+  /* border: 1px black solid; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 12px 20px;
+  background-color: whitesmoke;
+  border-radius: 6px;
+}
+
+.enclosure-info-name {
+  font-size: larger;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.enclosure-info-type {
+  font-size: small;
+  font-weight: 400;
+}
+
+.enclosure-info-seats {
+  font-size: small;
+  font-weight: 400;
+}
+
+.enclosure-info-price {
+  font-size: small;
+  font-weight: 400;
+}
+
+.enclosure-info-book {
+  width: 100%;
+  margin-top: 11px;
+  padding: 7px 5px;
+  background-color: #d5d3d3;
+  border: none;
+  border-radius: 4px;
+  border: 1px whitesmoke solid;
+}
+
+.enclosure-info-book:hover {
+  cursor: pointer;
+  border: 1px black solid;
+}
+
+.confirm-modal-body {
+  background-color: white;
+  height: 80%;
+  display: flex-start;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  padding: 0px 2.5em;
+}
+
+.confirm-title {
+  font-size: larger;
+  font-weight: 500;
+  margin-bottom: 13px;
+  margin-top: 23px;
+}
+
+.confirm-time {
+  font-size: small;
+  font-weight: 400;
+  margin-bottom: 2px;
+}
+
+.confirm-date {
+  font-size: small;
+  font-weight: 400;
+  margin-bottom: 2px;
+}
+
+.confirm-enclosure {
+  font-size: small;
+  font-weight: 400;
+  margin-bottom: 2px;
+}
+
+.confirm-enclosure-type {
+  font-size: small;
+  font-weight: 400;
+  margin-bottom: 2px;
+}
+
+.confirm-seatleft {
+  font-size: small;
+  font-weight: 400;
+  margin-bottom: 2px;
+}
+
+.confirm-ticket-num {
+  font-size: small;
+  font-weight: 400;
+  margin-bottom: 2px;
+}
+
+.confirm-ticket-num input {
+  padding: 4px 10px;
+  border: 1px grey solid;
+  width: 3em;
+  margin: 5px 0;
+}
+
+.confirm-price {
+  font-size: small;
+  font-weight: 400;
+  margin-bottom: 5px 0;
+}
+
+.confirm-stadium {
+  font-size: small;
+  font-weight: 400;
+  margin-bottom: auto;
+}
+
+.confirm-btn {
+  font-size: small;
+  font-weight: 400;
+  margin-bottom: 20px;
+  padding: 10px 5px;
+  background-color: #f91111c7;
+  border: 1px black solid;
+  border-radius: 3px;
+}
+
+.confirm-btn:hover {
+  cursor: pointer;
+  border: 1px black solid;
+}
+
+.payment-modal-body {
+  background-color: white;
+  height: 80%;
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  flex-direction: column;
+  padding: 0px 2.5em;
+}
+
+.payment {
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+.payment-inp {
+  border: 1px black solid;
+  padding: 8px 7px;
+  margin-bottom: 5px;
+  background-color: rgb(250, 250, 250);
+  border-radius: 4px;
+}
+
+.card-cvc {
+  margin-bottom: auto;
+}
+
+.card-pay {
+  font-size: small;
+  font-weight: 400;
+  margin-bottom: 20px;
+  padding: 10px 5px;
+  background-color: #f91111c7;
+  border: 1px black solid;
+  border-radius: 3px;
+}
+
+.card-pay:hover {
+  cursor: pointer;
+  border: 1px black solid;
+}
+
+.card-label {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 2px;
+}

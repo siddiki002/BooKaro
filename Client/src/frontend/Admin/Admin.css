@@ -1,0 +1,173 @@
+body,
+html {
+  height: 100vh;
+  width: 100vw;
+  margin: none;
+  padding: none;
+  box-sizing: border-box;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+.App {
+  height: 100%;
+  width: 100%;
+}
+
+.Admin {
+  height: 100%;
+  width: 100%;
+}
+
+.Admin-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 18px 18px;
+  border-bottom: 0.01px black solid;
+}
+
+.Admin-logo {
+  padding: 4px;
+  margin-left: 50%;
+  transform: translate(-50%, 0px);
+}
+
+.admin-split {
+  width: 100%;
+  display: flex;
+}
+
+.admin-options {
+  height: auto;
+  width: 20%;
+  background-color: whitesmoke;
+  border-right: 1px rgb(0, 0, 0, 0.5) solid;
+}
+
+.admin-states {
+  /* height: 100%; */
+  width: 80%;
+}
+
+.admin-opt {
+  padding: 10px 0;
+  border-bottom: 1px rgb(0, 0, 0, 0.5) solid;
+}
+
+.admin-opt:hover {
+  cursor: pointer;
+  background-color: rgb(240, 240, 240);
+}
+
+.admin-service {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.admin-ticket {
+  margin: 0 auto;
+}
+
+.admin-title {
+  padding-bottom: 8px;
+  padding-top: 10px;
+  font-size: xx-large;
+  font-weight: 400;
+}
+
+.admin-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.admin-search {
+  padding: 10px 0;
+  width: 75%;
+  border-bottom: 1px black solid;
+}
+
+.admin-inp {
+  padding: 8px 10px;
+  margin: 5px 10px;
+  width: 150px;
+}
+
+.admin-btn {
+  font-size: small;
+  font-weight: 400;
+  /* margin-bottom: 20px;
+  padding: 10px 5px; */
+  background-color: rgb(3 169 244);
+  border: 1px black solid;
+  border-radius: 3px;
+}
+
+.admin-btn:hover {
+  cursor: pointer;
+  border: 1px black solid;
+}
+
+.admin-results {
+  /* padding: 18px 70px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 75%;
+  background-color: whitesmoke;
+  margin: 10px 0;
+  min-height: 374px;
+}
+
+.admin-result {
+  margin: 0 auto;
+  padding: 15px 15px;
+  background-color: whitesmoke;
+}
+
+.admin-create-body {
+  background-color: white;
+  height: 80%;
+  padding: 15px 25px;
+  overflow-y: scroll;
+}
+
+.admin-create-inp {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.admin-create-inp input {
+  margin: 0;
+  margin-bottom: 11px;
+  padding: 5px 8px;
+  font-size: 12px;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.admin-create-btn {
+  width: 100%;
+  font-size: small;
+  font-weight: 400;
+  /* margin-bottom: 20px; */
+  padding: 10px 5px;
+  background-color: #ff9800;
+  border: 1px black solid;
+  border-radius: 3px;
+  margin-top: auto;
+}
+
+.admin-create-btn:hover {
+  cursor: pointer;
+}
