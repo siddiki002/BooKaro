@@ -16,6 +16,7 @@ BooKaro is an online ticket booking application. The application currently handl
 * <img src = "https://img.shields.io/badge/-MongoDB-black?logo=mongodb&style=for-the-badge" />
 * <img src = "https://img.shields.io/badge/-Selenium-black?logo=selenium&style=for-the-badge" />
 <p align = "right"><a href = "#readme-top">Back to top</a></p>
+
 ### Getting started
 
 In order to run this project you need to have following installed in your local machine
