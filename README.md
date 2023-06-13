@@ -48,10 +48,12 @@ Following above steps you could easily run the application
 The database used in this application is MongoDB. To connect the database you need to follow following steps
 1. Go to <a href = "https://www.mongodb.com/atlas/database">MongoDB atlas</a> and create an account
 2. Create a .env file in server folder. You can easily create it by making an empty notepad file and click _Save as_ option. For saving use the name **.env** and it will create .env file
-3. Inside the file write following lines of code 
+3. Inside the file write following lines
 ```
-MongoDB_Key = mongodb+srv://user_name:password@collection_name.xkiebui.mongodb.net/collection_name?retryWrites=true&w=majority
+MongoDB_Key = your_key
 EMAIL = your_email
 PASSWORD = your_password
 ```
-Here the MongoDB_Key is the link you will get by the MongoDB atlas. **Email** is the email you are willing to use to send authorization emails and **Password** is the password of your email account so that the <a href = "https://nodemailer.com/about/">Node mailer</a> could login to the account.
+Here the MongoDB_Key is the link you will get by creating a collection and then clicking the _connect_ button, after connecting you can select a method for connection, the easiest way is to select the driver method and copy your link. **Email** is the email you are willing to use to send authorization emails and **Password** is the password of your email account so that the <a href = "https://nodemailer.com/about/">Node mailer</a> could login to the account.
+<p align = "right"><a href = "#readme-top">Back to top</a></p>
+
