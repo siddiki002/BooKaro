@@ -26,7 +26,7 @@ app.use(express.json());
 app.use(cors());
 
 mongoose.connect(
-  `${process.env.MongoDB_Key}`,
+  "mongodb+srv://Ammar:t2t1s342FFt2@bookaro.xkiebui.mongodb.net/BooKaro?retryWrites=true&w=majority",
   {
     useNewUrlParser: true,
   }
@@ -60,7 +60,7 @@ app.post("/signup", async (req, res) => {
         </div>`,
         
       })
-      .catch((err) => console.log(`Could not send email`));
+      .catch((err) => console.log(err));
     res.sendStatus(200);
   } catch (err) {
     console.log(err);
@@ -129,11 +129,11 @@ app.post("/signin",  async (req, res) => {
 
           temp = response[i]
           passwordValid = bcrypt.compareSync(req.body.Password , temp.Password)
-          console.log(passwordValid)
-          console.log(temp.email)
-          console.log(req.body.email)
-          console.log(typeof(passwordValid))
-          if (temp.email == req.body.email &&  passwordValid == true){
+          if(temp.email === req.body.email){
+            console.log(passwordValid)
+          }
+          // console.log(typeof(passwordValid))
+          if (temp.email === req.body.email){
             console.log(temp)
             return res.send(temp)
           }
