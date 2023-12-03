@@ -68,6 +68,7 @@ export default function AdminUserWidget({ user, setUser, setState }) {
   return (
     <div>
       <div
+        id="user-widget"
         className="user-widget"
         // onMouseEnter={handleMouseEnter}
         // onMouseLeave={handleMouseLeave}
