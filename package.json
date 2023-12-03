@@ -1,0 +1,6 @@
+{
+    "scripts": {
+      "test": "python Alltests.py"
+    }
+  }
+  

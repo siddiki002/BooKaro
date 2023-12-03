@@ -96,6 +96,7 @@ export default function UserWidget({ user, setUser, setState }) {
           style={{
             borderRadius: "4px",
           }}
+          id="sign-out"
           onClick={handleSignOut}
         >
           Sign Out
